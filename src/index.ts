@@ -379,3 +379,5 @@ app.delete("/guild/:id", async (req: Request, res: Response) => {
 app.listen(port, () => {
   console.log(`HTTP server running at http://localhost:${port}`);
 });
+
+export default app
