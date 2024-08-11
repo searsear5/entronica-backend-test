@@ -1,0 +1,9 @@
+npm init
+npm i typescript
+npm i @types/node
+npm i ts-node
+npx tsc --init
+npm i express
+
+//for edit table
+npx prisma migrate dev --name "add skill level"
